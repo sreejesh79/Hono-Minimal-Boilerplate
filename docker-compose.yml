@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  hono-boilerplate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5007:5007"
+    environment:
+      - NODE_ENV=prod

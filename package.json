@@ -1,0 +1,22 @@
+{
+  "name": "gj-textract",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.14.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "hono": "^4.8.1",
+    "redis": "^5.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
